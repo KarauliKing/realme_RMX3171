@@ -1,0 +1,7 @@
+// Android.mk for RMX3171
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE := RMX3171
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)
+include $(BUILD_PREBUILT)
